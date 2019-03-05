@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BMIandWeight</string>
+    <string name="bmi">BMI</string>
+    <string name="your_weight_in_other_planets">Your Weight in other planets</string>
+</resources>
