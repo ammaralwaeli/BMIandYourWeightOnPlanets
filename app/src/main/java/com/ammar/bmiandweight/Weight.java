@@ -37,10 +37,10 @@ public class Weight extends AppCompatActivity {
         if(e.getText().toString().equals("")){
             Toast.makeText(getApplicationContext(),"Please enter your weight!",Toast.LENGTH_LONG).show();
         }else{
-
+            String image[]={"Earth", "Jupiter", "Mars", "Mercury", "Neptune", "Saturn", "Uranus", "Venus"};
             for(int i=0;i<mass.length;i++){
                 res=Integer.valueOf(e.getText().toString())*mass[i];
-                myImageNameList[i]+=" = "+res;
+                myImageNameList[i]=image[i]+" = "+res;
             }
             imageModelArrayList = populateList();
             Log.d("hjhjh", imageModelArrayList.size() + "");
